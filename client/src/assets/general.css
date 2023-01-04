@@ -1,0 +1,81 @@
+label{
+    
+    font-weight: 800;
+    text-align: right;
+}
+*{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
+}
+h1{
+    font-weight: 800;
+}
+
+#editbtn{
+    color:#7c9982;
+    font-weight:700;
+    background:none;
+    border:none; 
+    padding:2px;
+    font-size:30px;
+   
+}
+#editbtn:hover{
+    color:#354638;  
+}
+#delbtn{
+    color:#e9b1b1;
+    font-weight: 800;
+    background:none;
+    border:none; 
+    padding:2px;
+    font-size:30px;
+    margin-left:20px;
+   
+}
+#delbtn:hover{
+    color:#524742;
+}
+#save{
+    margin:auto;
+    width:100%;
+    font-weight: 800;
+}
+
+/* The Modal (background) */
+#addModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+#addModalContent{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
